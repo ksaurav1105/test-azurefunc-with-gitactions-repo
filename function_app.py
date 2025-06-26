@@ -20,6 +20,6 @@ def httptrigger_testazurefucwithgithub(req: func.HttpRequest) -> func.HttpRespon
         return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
     else:
         return func.HttpResponse(
-             "I have deployed this via Github Actions with version 2.0 changes.",
+             "I have deployed this via Github Actions with version 2.1 changes.",
              status_code=200
         )
